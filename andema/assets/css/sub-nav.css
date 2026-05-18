@@ -1,0 +1,102 @@
+
+.sub_head {
+  height: 49px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(234, 234, 234);
+  position: relative;
+  margin-top: -1px;
+}
+.box_red {
+  position: absolute;
+  z-index: 0;
+  width: 50%;
+  height: 49px;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(254, 0, 0);
+  top: 0px;
+  left: 0px;
+}
+.content {
+  position: relative;
+  width: 1170px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  z-index: 1;
+}
+.sub_head .content {
+  background-image: url("../images/arrow_red.png") no-repeat;
+  background-position-x: 0px;
+  background-position-y: 50%;
+  background-size: initial;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(255, 255, 255);
+}
+.sub_head .sub_nav {
+  padding-left: 18px;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(234, 234, 234);
+  height: 49px;
+}
+ol, ul {
+  list-style-type: none;
+  list-style-position: initial;
+  list-style-image: initial;
+}
+.clearfix {
+
+}
+.clearfix::after {
+  clear: both;
+}
+.sub_head .sub_nav ul {
+
+}
+.sub_head .sub_nav ul li {
+  float: left;
+  margin-right: 12px;
+}
+a {
+  color: rgb(41, 48, 142);
+  text-decoration: none;
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: initial;
+  transition-property: all;
+}
+a:hover {
+  cursor: pointer;
+  color: rgb(51, 51, 51);
+}
+.sub_head .sub_nav ul li a {
+  float: left;
+  display: block;
+  color: rgb(51, 51, 51);
+  line-height: 48px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(255, 255, 255);
+}
+.sub_head .sub_nav ul li a:hover {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(224, 22, 32);
+}

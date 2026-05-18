@@ -1,0 +1,1 @@
+<img src="/pict/paint.jpg"/>

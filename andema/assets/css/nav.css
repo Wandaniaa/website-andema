@@ -1,0 +1,47 @@
+
+
+
+
+.shrink {
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+transition: 0.5s;
+}
+
+#duplicate .shrink{
+	visibility:visible;
+	
+}
+.shrink#main-nav .navbar-nav li a {
+	height:40px;
+	padding-top:0;
+	padding-bottom:0;
+	font-size: 16px;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+
+
+.shrink .navbar-brand{
+	padding-top:5px;
+}
+
+.shrink .navbar-brand img {
+	width:80%;
+	height:80%;
+}
+
+.shrink .navbar-form{
+
+}
+
+ 
+
+.pull-right {
+	padding-right:80px;
+	margin-top:20px;
+}
+

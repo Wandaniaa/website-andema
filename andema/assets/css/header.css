@@ -1,0 +1,174 @@
+ <div class="wrapper wrapper-bg">
+<div class="container">
+ Get CSS Clear
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.w960 .wrapper, .w1170 .wrapper {
+  width: 100%;
+}
+header.page-header .preheader, header.page-header .wrapper-bg {
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+.w1170 .container, .b1170 .container {
+  max-width: 1200px;
+}
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {
+  display: inline;
+  float: left;
+  margin-top: 0px;
+  margin-right: 1.25%;
+  margin-bottom: 0px;
+  margin-left: 1.25%;
+}
+.container .grid_12 {
+  width: 97.5%;
+}
+.page-header .grid_12 {
+  margin-bottom: 0px;
+}
+.logo {
+  display: block;
+  float: left;
+  padding-bottom: 17px;
+}
+a {
+  text-decoration: none;
+  color: rgb(59, 116, 169);
+}
+a:focus {
+  outline-color: initial;
+  outline-style: none;
+  outline-width: initial;
+}
+a, .widget_categories li.active a, .widget_categories li.active, .z-active .z-link, .tab-nav li.active a, .menu > li:hover > a, .menu > li.current_page_item > a, .menu > li:hover > a::after, .menu > li.current_page_item > a::after, .advantages a:hover h1, .why-choose-us a:hover h1, .post > header h2, .post-author a, .post-comments.inline a, .read-more, .post-pagination li:hover a, .post-pagination li.active a .widget_categories li:hover, .widget_categories a:hover, .gallery-filters a:hover, .gallery-filters a.selected, .column_post header a, .column_post header h1, .column_post-category span, .column_post-category a, .column_post-author span, .column_post-author a, .purchase-plate_header, .widget_recent_posts_2 .item header h1, .widget_recent_posts_2 .item header h1 a, .member-info span, .post-blockquote, .post h1, .number-of-comments span, .comment-reply, blockquote, .widget_accordion .item.active h1, .post-category span, .post-category a, .post-comments.inline a, .widget_categories li:hover, .widget_categories a:hover, .dropcap_letter, .widget_accordion footer span + span, .sc-list ul li:hover {
+  color: rgb(49, 112, 172);
+}
+img {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-style: initial;
+  border-right-style: initial;
+  border-bottom-style: initial;
+  border-left-style: initial;
+  border-top-color: initial;
+  border-right-color: initial;
+  border-bottom-color: initial;
+  border-left-color: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+}
+.logo img {
+  display: block;
+  height: 63px;
+  margin-top: 17.5px;
+}
+ul, li {
+  list-style-type: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.socials {
+  display: block;
+  float: right;
+}
+li {
+  backface-visibility: hidden;
+}
+.socials li {
+  display: block;
+  float: left;
+  height: 36.5px;
+  margin-top: 31.5px;
+  margin-left: 3px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.tran02slinear {
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  transition-delay: initial;
+  transition-property: all;
+}
+.socials li span {
+  position: absolute;
+  width: 98%;
+  height: 97%;
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(54, 111, 165);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 5px 0px inset;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  top: 101%;
+  left: 1px;
+}
+.socials li:hover span {
+  top: 1px;
+}
+.menu > li:hover > a::after, .menu > li.current_page_item > a::after, .blue, .widget_out_stuff2 .item-con-t1:hover header .bg-black-045, .widget_multi_posts_entries .header .item.active .button, .underline .z-active .z-link, .advantages a .advantages-img span:first-child + span, .why-choose-us .why-choose-us-img span:first-child + span, .post-comments span, .border-bottom-blue-3px::after, .menu > li > .sub-menu, .socials li span, .infobox .bottom-line, .widget_out_stuff2 .item-con-t1 header .overlay, .item-con-t1 .blue-line, .widget_out_stuff-container .item-con-t1 .corner, .member-social a:hover, .gallery-image-links a span:first-child + span, .images-slider .flex-direction-nav li a:hover, .teaser a .advantages-img span:first-child + span, .rev-direction-nav a span:hover, .dropcap_circle .dropcap_letter {
+  background-color: rgb(49, 112, 172);
+}
+.socials a {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-image: url("../img/socials.png");
+  position: relative;
+}
+.socials .facebook {
+  background-position-x: 0px;
+  background-position-y: 0px;
+}
+.socials .facebook:hover {
+  background-position-x: 0px;
+  background-position-y: -35px;
+}
+.socials .twitter {
+  background-position-x: 0px;
+  background-position-y: -70px;
+}
+.socials .twitter:hover {
+  background-position-x: 0px;
+  background-position-y: -105px;
+}
+.socials .dribbble {
+  background-position-x: 0px;
+  background-position-y: -210px;
+}
+.socials .dribbble:hover {
+  background-position-x: 0px;
+  background-position-y: -245px;
+}
