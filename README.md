@@ -72,6 +72,3 @@ any('/404', 'views/404.php');
 
 Route yang tidak cocok dengan pola manapun akan diarahkan ke halaman `views/404.php`.
 
-## Lisensi
-
-Belum ada lisensi eksplisit yang disertakan. Tambahkan file `LICENSE` sesuai kebutuhan sebelum didistribusikan.
